@@ -1,6 +1,6 @@
 package src;
 
-abstract class DishDecorator implements Dish {
+public abstract class DishDecorator implements Dish {
     protected Dish decoratedDish;
 
     public DishDecorator(Dish decoratedDish) {
